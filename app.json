@@ -7,14 +7,11 @@
     "flask"
   ],
   "website": "http://docs.alerta.io",
-  "repository": "https://github.com/guardian/alerta",
+  "repository": "https://github.com/txirinedu/alerta",
   "success_url": "/",
   "env": {
     "SECRET_KEY": {
       "generator": "secret"
     }
-  },
-  "addons": [
-    "mongolab"
-  ]
+  }
 }
